@@ -11,11 +11,3 @@ jobs:
       - name: Patch
         run: |
           fastlane patch
-          
-  patch-minor:
-    runs-on: macos-latest
-
-    steps:
-      - name: Minor
-        run: |
-          fastlane minor
