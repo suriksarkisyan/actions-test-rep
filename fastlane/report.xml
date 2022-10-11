@@ -5,7 +5,12 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="0: last_git_tag" time="0.045495">
+      <testcase classname="fastlane.lanes" name="0: update_plist" time="0.117705">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: version_bump_podspec" time="0.001517">
         
       </testcase>
     
