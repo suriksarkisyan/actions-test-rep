@@ -1,0 +1,21 @@
+name: Manual Prerelease
+
+on:
+  workflow_dispatch
+    
+jobs:
+  patch-prerelease:
+    runs-on: macos-latest
+
+    steps:
+      - name: Patch
+        run: |
+          fastlane patch
+          
+  patch-prerelease:
+    runs-on: macos-latest
+
+    steps:
+      - name: Minor
+        run: |
+          fastlane minor
