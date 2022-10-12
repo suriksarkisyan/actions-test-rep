@@ -40,7 +40,7 @@ end
 def calculate_minor_version(tag)
   major, minor, patch = parse_versions(tag)
   new_minor_version = minor.to_i.next.to_s
-  new_version = major + "." + new_minor_version + "." + patch
+  new_version = major + "." + new_minor_version + "." + "0"
   return new_version
 end
 
